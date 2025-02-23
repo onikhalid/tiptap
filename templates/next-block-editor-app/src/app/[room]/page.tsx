@@ -6,6 +6,7 @@ import { useSearchParams } from 'next/navigation'
 import { useCallback, useEffect, useLayoutEffect, useMemo, useState } from 'react'
 import { Doc as YDoc } from 'yjs'
 
+
 import { BlockEditor } from '@/components/BlockEditor'
 import { createPortal } from 'react-dom'
 import { Surface } from '@/components/ui/Surface'
