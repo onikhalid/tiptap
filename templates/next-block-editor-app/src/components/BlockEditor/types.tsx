@@ -6,11 +6,6 @@ export type EditorUser = {
   initials?: string
 }
 
-export type LanguageOption = {
-  name: string
-  label: string
-  value: Language
-}
 
 export type AiTone =
   | 'academic'
